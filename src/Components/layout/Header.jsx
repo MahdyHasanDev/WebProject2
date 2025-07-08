@@ -13,11 +13,11 @@ const Header = () => {
                     </div>
                     <div className="m-auto">
                       <ul>
-                        <li className='inline-block px-[20px] font-display-dm hover:font-bold text-normal hover:text-hoverC text-[14px] duration-300 ease-in-out'>Home</li>
-                        <li className='inline-block px-[20px] font-display-dm hover:font-bold text-normal hover:text-hoverC text-[14px] duration-300 ease-in-out'>Shop</li>
-                        <li className='inline-block px-[20px] font-display-dm hover:font-bold text-normal hover:text-hoverC text-[14px] duration-300 ease-in-out'>About</li>
-                        <li className='inline-block px-[20px] font-display-dm hover:font-bold text-normal hover:text-hoverC text-[14px] duration-300 ease-in-out'>Contacts</li>
-                        <li className='inline-block px-[20px] font-display-dm hover:font-bold text-normal hover:text-hoverC text-[14px] duration-300 ease-in-out'>Journal</li>
+                        <li className='inline-block px-[20px] font-display-dm hover:font-medium text-normal hover:text-hoverC text-[14px] duration-300 ease-in-out'>Home</li>
+                        <li className='inline-block px-[20px] font-display-dm hover:font-medium text-normal hover:text-hoverC text-[14px] duration-300 ease-in-out'>Shop</li>
+                        <li className='inline-block px-[20px] font-display-dm hover:font-medium text-normal hover:text-hoverC text-[14px] duration-300 ease-in-out'>About</li>
+                        <li className='inline-block px-[20px] font-display-dm hover:font-medium text-normal hover:text-hoverC text-[14px] duration-300 ease-in-out'>Contacts</li>
+                        <li className='inline-block px-[20px] font-display-dm hover:font-medium text-normal hover:text-hoverC text-[14px] duration-300 ease-in-out'>Journal</li>
                       </ul>
                     </div>
                 </Flex>

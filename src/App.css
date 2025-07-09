@@ -10,10 +10,17 @@
   --font-display-dm: "DM sans", "sans-serif";
 /* font  */
 
+/* font size  */
+--text-One: 1.5rem;
+/* font size  */
+
 /* color  */
 --color-normal: #767676;
 --color-hoverC: #262626;
 --color-categoryBg: #F5F5F3;
+--color-salespartHeadingBg: #F0F0F0;
 /* color  */
+
+
 
 }

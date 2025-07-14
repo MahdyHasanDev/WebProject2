@@ -1,32 +1,47 @@
 import { FaCaretDown, FaShoppingCart, FaUser } from "react-icons/fa"
 import { IoSearch } from "react-icons/io5"
 import Bars from '../../assets/Icons/Bars'
-import Logo from '../../assets/Logo (1).png'
+import Logo from "../../assets/Logo (1).png"
 import Container from '../Container'
 import Flex from '../Flex'
-import Image from '../Image'
+import Image from "../Image"
 
 const Header = () => {
   return (
          <>
-         <div className="py-[35px]">
-            <Container>
-                <Flex className={'items-center'}>
-                    <div className="">
-                      <Image imgSrc={Logo} imgAlt={"Logo"}/>
-                    </div>
-                    <div className="m-auto">
-                      <ul>
-                        <li className='inline-block px-[20px] font-display-dm hover:font-bold text-normal hover:text-hoverC text-[14px] duration-300 ease-in-out'>Home</li>
-                        <li className='inline-block px-[20px] font-display-dm hover:font-bold text-normal hover:text-hoverC text-[14px] duration-300 ease-in-out'>Shop</li>
-                        <li className='inline-block px-[20px] font-display-dm hover:font-bold text-normal hover:text-hoverC text-[14px] duration-300 ease-in-out'>About</li>
-                        <li className='inline-block px-[20px] font-display-dm hover:font-bold text-normal hover:text-hoverC text-[14px] duration-300 ease-in-out'>Contacts</li>
-                        <li className='inline-block px-[20px] font-display-dm hover:font-bold text-normal hover:text-hoverC text-[14px] duration-300 ease-in-out'>Journal</li>
-                      </ul>
-                    </div>
-                </Flex>
-            </Container>
-         </div>
+         <Container >
+        <div className="navbar ">
+  <div className="navbar-start">
+    <div className="dropdown">
+      <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+      </div>
+      <ul
+        tabIndex={0}
+        className="menu menu-sm dropdown-content bg-salespartHeadingBg rounded-box z-1 mt-3 w-52 p-2 shadow">
+        <li className="text-red-450 text-[14px] font-display-dm opacity-70 hover:text-red-450 hover:font-bold hover:opacity-100">Home</li>
+        <li className="text-red-450 text-[14px] font-display-dm opacity-70 hover:text-red-450 hover:font-bold hover:opacity-100">Shop</li>
+        <li className="text-red-450 text-[14px] font-display-dm opacity-70 hover:text-red-450 hover:font-bold hover:opacity-100">About</li>
+        <li className="text-red-450 text-[14px] font-display-dm opacity-70 hover:text-red-450 hover:font-bold hover:opacity-100">Contacts</li>
+        <li className="text-red-450 text-[14px] font-display-dm opacity-70 hover:text-red-450 hover:font-bold hover:opacity-100">Journal</li>
+        
+      </ul>
+    </div>
+    <Image imgSrc={Logo} imgAlt={"logo"}/>
+  </div>
+  <div className="navbar-center hidden lg:flex">
+    <ul className="menu menu-horizontal px-1 flex gap-x-12 text-center">
+      <li className="text-black text-[14px] font-display-dm opacity-70 hover:text-hoverC hover:font-bold hover:opacity-100">Home</li>
+      <li className="text-black text-[14px] font-display-dm opacity-70 hover:text-hoverC hover:font-bold hover:opacity-100">Shop</li>
+      <li className="text-black text-[14px] font-display-dm opacity-70 hover:text-hoverC hover:font-bold hover:opacity-100">About</li>
+      <li className="text-black text-[14px] font-display-dm opacity-70 hover:text-hoverC hover:font-bold hover:opacity-100">Contacts</li>
+      <li className="text-black text-[14px] font-display-dm opacity-70 hover:text-hoverC hover:font-bold hover:opacity-100">Journal</li>
+
+    </ul>
+  </div>
+  
+        </div>
+        </Container>
 {/* header art end  */}
 {/* catagory part sttart  */}
          <div className={" py-[25px] bg-categoryBg"}>
@@ -34,16 +49,16 @@ const Header = () => {
                     <Flex className={'justify-between items-center'}>
                       <div className="flex items-center gap-x-3">
                         <Bars/>
-                        <h2>Shop by Category</h2>
+                        <h2 className="text-black">Shop by Category</h2>
                       </div>
                       <div className="relative">
-                        <input type="text " placeholder='Search Products' className='bg-white p-5 w-[600px] border rounded-xl border-categoryBg' />
-                        <IoSearch className="absolute right-[25px] top-1/2 -translate-y-1/2 "/>
+                        <input type="text " placeholder='Search Products' className='bg-white text-normal p-5 w-[600px] border rounded-xl border-categoryBg' />
+                        <IoSearch className="absolute right-[25px] text-black top-1/2 -translate-y-1/2 "/>
                       </div>
                       <div className="flex ">
-                           <FaUser  />
-                         <FaCaretDown  className="ml-2" />
-                        <FaShoppingCart className="ml-9"/>
+                           <FaUser  className=" text-black"/>
+                         <FaCaretDown  className="ml-2 text-black" />
+                        <FaShoppingCart className="ml-9 text-black"/>
                       </div>
                     </Flex>
               </Container>

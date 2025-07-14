@@ -1,5 +1,6 @@
 import { FaCaretDown, FaShoppingCart, FaUser } from "react-icons/fa"
 import { IoSearch } from "react-icons/io5"
+import { Link } from "react-router-dom"
 import Bars from '../../assets/Icons/Bars'
 import Logo from "../../assets/Logo (1).png"
 import Container from '../Container'
@@ -19,24 +20,45 @@ const Header = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-salespartHeadingBg rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li className="text-red-450 text-[14px] font-display-dm opacity-70 hover:text-red-450 hover:font-bold hover:opacity-100">Home</li>
-        <li className="text-red-450 text-[14px] font-display-dm opacity-70 hover:text-red-450 hover:font-bold hover:opacity-100">Shop</li>
-        <li className="text-red-450 text-[14px] font-display-dm opacity-70 hover:text-red-450 hover:font-bold hover:opacity-100">About</li>
-        <li className="text-red-450 text-[14px] font-display-dm opacity-70 hover:text-red-450 hover:font-bold hover:opacity-100">Contacts</li>
-        <li className="text-red-450 text-[14px] font-display-dm opacity-70 hover:text-red-450 hover:font-bold hover:opacity-100">Journal</li>
+          <Link to="/">
+      <li className="text-black text-[14px] font-display-dm opacity-70 hover:text-hoverC hover:font-bold hover:opacity-100">Home</li>
+      </Link>
+      <Link to="/shop">
+      <li className="text-black text-[14px] font-display-dm opacity-70 hover:text-hoverC hover:font-bold hover:opacity-100">Shop</li>
+      </Link>
+      <Link to="/about">
+      <li className="text-black text-[14px] font-display-dm opacity-70 hover:text-hoverC hover:font-bold hover:opacity-100">About</li>
+      </Link>
+      <Link to="/contact">
+      <li className="text-black text-[14px] font-display-dm opacity-70 hover:text-hoverC hover:font-bold hover:opacity-100">Contacts</li>
+      </Link>
+      <Link to="/journal">
+      <li className="text-black text-[14px] font-display-dm opacity-70 hover:text-hoverC hover:font-bold hover:opacity-100">Journal</li>
+      </Link>
         
       </ul>
     </div>
+    <Link to='/'> 
     <Image imgSrc={Logo} imgAlt={"logo"}/>
+    </Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 flex gap-x-12 text-center">
+      <Link to="/">
       <li className="text-black text-[14px] font-display-dm opacity-70 hover:text-hoverC hover:font-bold hover:opacity-100">Home</li>
+      </Link>
+      <Link to="/shop">
       <li className="text-black text-[14px] font-display-dm opacity-70 hover:text-hoverC hover:font-bold hover:opacity-100">Shop</li>
+      </Link>
+      <Link to="/about">
       <li className="text-black text-[14px] font-display-dm opacity-70 hover:text-hoverC hover:font-bold hover:opacity-100">About</li>
+      </Link>
+      <Link to="/contact">
       <li className="text-black text-[14px] font-display-dm opacity-70 hover:text-hoverC hover:font-bold hover:opacity-100">Contacts</li>
+      </Link>
+      <Link to="/journal">
       <li className="text-black text-[14px] font-display-dm opacity-70 hover:text-hoverC hover:font-bold hover:opacity-100">Journal</li>
-
+      </Link>
     </ul>
   </div>
   

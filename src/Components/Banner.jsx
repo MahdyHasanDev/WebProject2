@@ -4,10 +4,11 @@ const Banner = () => {
   return (
 
     <>
-    <Link to={'https://www.creativeitinstitute.com/'}>
+   <Link to={'https://www.creativeitinstitute.com/' }  target="_blank">
         <div className="bg-[url('/Banner.png')] bg-cover bg-center py-[300px]"></div>
 
-    </Link>
+ </Link>
+   
     </>
 
 )

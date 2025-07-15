@@ -10,7 +10,8 @@ import Image from "../Image"
 const Header = () => {
   return (
          <>
-         <Container >
+      <div className="bg-white">
+           <Container >
         <div className="navbar ">
   <div className="navbar-start">
     <div className="dropdown">
@@ -64,6 +65,7 @@ const Header = () => {
   
         </div>
         </Container>
+      </div>
 {/* header art end  */}
 {/* catagory part sttart  */}
          <div className={" py-[25px] bg-categoryBg"}>

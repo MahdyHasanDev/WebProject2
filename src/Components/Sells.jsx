@@ -1,4 +1,7 @@
+import { Link } from "react-router-dom"
+import bu from "../assets/buka.png"
 import pera from "../assets/perarakib.png"
+import vu from "../assets/vuka.png"
 import Container from "../components/Container"
 import Flex from "../components/Flex"
 import Image from "../components/Image"
@@ -7,13 +10,26 @@ const Sells = () => {
   return (
 
 <>
-<div className="bg-white">
+<div className="py-35 bg-white">
     <Container>
-       <Flex>
+       <Flex className={"justify-between gap-x-10"}>
+         <div className="w-1/2 relative">
+            <Link to={"/"}>
+               <Image imgSrc={pera} imgAlt={"pera"} className={"w-full"}/>
+         </Link>
+            </div>
+           
           <div className="w-1/2">
-          <Image imgSrc={pera}/>
-          </div>
-          <div className="w-1/2"></div>
+           <div className="">
+                  <Link to={"/"}>
+                  <Image imgSrc={bu} imgAlt={"bu"}/>
+                  </Link>
+               </div>
+               <div className="mt-8">
+                   <Link to={"/"}>
+                  <Image imgSrc={vu} imgAlt={"vu"}/>
+                  </Link>
+               </div></div>
        </Flex>
     </Container>
 </div>

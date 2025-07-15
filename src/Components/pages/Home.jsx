@@ -1,6 +1,7 @@
 import Banner from '../Banner'
 import SalesPart from '../SalesPart'
 import Sells from '../Sells'
+import Product from './Product'
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
     <Banner/>
     <SalesPart/>
     <Sells/>
+    <Product/>
     </>
   )
 }

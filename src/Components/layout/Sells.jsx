@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom"
-import bu from "../assets/buka.png"
-import pera from "../assets/perarakib.png"
-import vu from "../assets/vuka.png"
-import Container from "../components/Container"
-import Flex from "../components/Flex"
-import Image from "../components/Image"
+import bu from "../../assets/buka.png"
+import pera from "../../assets/perarakib.png"
+import vu from "../../assets/vuka.png"
+import Container from "../Container"
+import Flex from "../Flex"
+import Image from "../Image"
 
 const Sells = () => {
   return (

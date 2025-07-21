@@ -1,7 +1,10 @@
-import Banner from '../Banner'
-import SalesPart from '../SalesPart'
-import Sells from '../Sells'
-import Product from './Product'
+
+
+import Banner from "../layout/Banner"
+import SalesPart from "../layout/SalesPart"
+import Sells from "../layout/Sells"
+import Product from "./Product"
+
 
 const Home = () => {
   return (

@@ -1,8 +1,8 @@
 import { FaTruck } from "react-icons/fa";
 import { FaArrowRotateLeft } from "react-icons/fa6";
 import { PiNumberTwoBold } from "react-icons/pi";
-import Container from './Container';
-import Flex from './Flex';
+import Container from '../Container';
+import Flex from '../Flex';
 
 const SalesPart = () => {
   return (

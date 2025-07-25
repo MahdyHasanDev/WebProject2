@@ -1,14 +1,17 @@
+import { CiCircleChevRight } from "react-icons/ci";
 
 const PrevArrow = (props) => {
-    const { className, style, onClick } = props;
+    const { onClick } = props;
 
   return (
-    <div
-      className={className}
-      style={{ ...style, display: "block", background: "green" }}
+      <div className={"text-5xl text-red-500 absolute left-6 top-1/2 z-10 -translate-y-1/2"}
       onClick={onClick}
-    >ABC</div>
+    ><CiCircleChevRight /></div>
   );  
 }
 
 export default PrevArrow
+
+
+
+

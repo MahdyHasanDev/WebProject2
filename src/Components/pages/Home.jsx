@@ -1,9 +1,9 @@
 
 
 import Banner from "../layout/Banner"
+import NewArrival from "../layout/NewArrival"
 import SalesPart from "../layout/SalesPart"
 import Sells from "../layout/Sells"
-import Product from "./Product"
 
 
 const Home = () => {
@@ -12,7 +12,7 @@ const Home = () => {
     <Banner/>
     <SalesPart/>
     <Sells/>
-    <Product/>
+    <NewArrival/>
     </>
   )
 }

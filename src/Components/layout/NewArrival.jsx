@@ -8,7 +8,7 @@ const NewArrival = () => {
     <div className="bg-white py-20">
     <Container>
         <Flex>
-            <div className="w-1/4">
+            <div className="w-full">
             <Product/>
             </div>
         </Flex>

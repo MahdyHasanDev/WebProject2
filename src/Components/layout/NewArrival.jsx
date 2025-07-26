@@ -34,7 +34,7 @@ const NewArrival = () => {
        <Slider {...settings}>
 <div>
 <div className='px-4'>
-  <Link to={'/'}>
+  <Link to={'/ProductDetails'}>
   <Product 
             productImg={jbkncvds}
             bajText={"10%"}

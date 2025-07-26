@@ -36,7 +36,7 @@ const ProductDetails = () => {
             <FaStar className={"text-[#FFD881]"}/>
             <FaStar className={"text-[#FFD881]"}/>
             <FaStar className={"text-[#FFD881]"}/>
-            <FaStar className={"text-[#]"}/>
+            <FaStar className={"text-[#FFD881]"}/>
             <FaStar className={"text-[#FFD881]"}/>
                 <p className="pl-5 text-[12px] text-[#767676]">1 Review</p>
         </Flex>

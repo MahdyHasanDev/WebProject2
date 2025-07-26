@@ -7,6 +7,7 @@ import Home from './Components/pages/Home';
 import Journal from './Components/pages/Journal';
 import Shop from './Components/pages/Shop';
 import Error from './Components/pages/Error';
+import ProductDetails from './Components/pages/ProductDetails';
 
 function App() {
   
@@ -22,6 +23,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/journal" element={<Journal />} />
         <Route path="*" element={<Error />} />
+        <Route path="/ProductDetails" element={<ProductDetails />} />
       </Route>
     </Routes>
   </>

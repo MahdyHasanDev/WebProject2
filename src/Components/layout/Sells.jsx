@@ -45,7 +45,7 @@ const Sells = () => {
       <button className="btn btn-primary mr-[120px]">Buy Now</button>
     </div>
   </div>
-</div>
+</div>+
        </div>
        
     </Container>

@@ -1,3 +1,5 @@
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import Container from '../Container'
 import Product from '../Product'
 import jbkncvds from "../../assets/clock.png"
@@ -26,6 +28,7 @@ const NewArrival = () => {
   nextArrow: <NextArrow />,
   prevArrow: <PrevArrow />,
 };
+ let [all, setAll] = useState([])
 
   return (
     <>       

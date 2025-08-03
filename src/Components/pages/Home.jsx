@@ -12,7 +12,6 @@ const Home = () => {
     <SalesPart/>
     <Sells/>
     <NewArrival/>
-    <Country/>
     </>
   )
 }

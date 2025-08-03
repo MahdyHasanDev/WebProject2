@@ -17,7 +17,7 @@ const Country = () => {
     <>
 <select className='bg-amber-700 text-black'>
   {all.map(item => 
-    <option className='text-black bg-amber-200'>{item.region}</option>
+    <option className='text-black bg-amber-200'>{item.capital}</option>
   )}
 </select>
     </>

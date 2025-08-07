@@ -3,6 +3,7 @@ import NewArrival from "../layout/NewArrival"
 import SalesPart from "../layout/SalesPart"
 import Sells from "../layout/Sells"
 
+
 const Home = () => {
   return (
     <>
@@ -10,6 +11,7 @@ const Home = () => {
     <SalesPart/>
     <Sells/>
     <NewArrival/>
+    
     </>
   )
 }

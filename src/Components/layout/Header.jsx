@@ -115,7 +115,7 @@ const Header = () => {
                 <h2 className="text-black ml-10">Shop by Category</h2>
               </div>
               {drop&&
-              <div className="bg-red-400 rounded-xl list-none p-4 absolute left-[90px] bottom-[-95px] z-10">
+              <div className="bg-red-800 rounded-xl list-none p-4 absolute left-[90px] bottom-[-95px] z-10">
                 
                
                   <Link to="/">

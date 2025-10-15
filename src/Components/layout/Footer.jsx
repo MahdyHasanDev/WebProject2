@@ -13,7 +13,7 @@ import Image from "../Image"
 const Footer = () => {
   return (
    <>
-   <div className="bg-[#F5F5F3] py-[60px]">
+   <div className="bg-[#F5F5F3] mt-[150px] py-[60px]">
     <Container>
       <Flex>
         <div className="w-[15%]">

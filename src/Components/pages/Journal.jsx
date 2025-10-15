@@ -1,7 +1,7 @@
 
 const Journal = () => {
   return (
-    <div>Journal Page</div>
+    <div class="text-black text-center">Journal Page</div>
   )
 }
 

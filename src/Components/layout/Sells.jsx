@@ -31,22 +31,7 @@ const Sells = () => {
                   </Link>
                </div></div>
        </Flex>
-       <div className="W-1/4">
-       <div className="card bg-base-100 w-96 shadow-sm">
-  <figure>
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-      alt="Shoes" />
-  </figure>
-  <div className="card-body">
-    <h2 className="card-title">Nike Shoe</h2>
-    <p>Nike Shoe has a figure, a body part, and a luxaroius Feeling</p>
-    <div className="card-actions justify-end">
-      <button className="btn btn-primary mr-[120px]">Buy Now</button>
-    </div>
-  </div>
-</div>+
-       </div>
+      
        
     </Container>
 </div>
